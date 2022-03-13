@@ -21,7 +21,7 @@ int cbinsearch(int *arr, int size, int value) {
          arr[i] == value && i <= size - 1; i++) {
       count++;
     }
-    for (int i = (leftwall + rigthwall) / 2 - 1; 
+    for (int i = (leftwall + rigthwall) / 2 - 1;
          arr[i] == value && i >= 0; i--) {
       count++;
     }
